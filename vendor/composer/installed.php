@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phpspec/php-diff' => array(
+            'pretty_version' => 'v1.1.3',
+            'version' => '1.1.3.0',
+            'reference' => 'fc1156187f9f6c8395886fe85ed88a0a245d72e9',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpspec/php-diff',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wyndow/fuzzywuzzy' => array(
+            'pretty_version' => 'v0.6.0',
+            'version' => '0.6.0.0',
+            'reference' => '6249a966a97ffc231d743ea5c4ccb4e6797582f5',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wyndow/fuzzywuzzy',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
