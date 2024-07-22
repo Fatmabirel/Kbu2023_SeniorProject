@@ -1,39 +1,62 @@
-# FULL STACK WEB APPLICATION FOR CONTENT BASED PRODUCT RECOMMENDER SYSTEM
+# Ürün Tavsiye Sistemi📝
+Bu proje Karabük Üniversitesi Bilgisayar Mühendisliği bölümünün bitirme projesidir. 
+
+🎉 Bu proje ile TÜBİTAK 2209-A Üniversite Öğrencilerini Destekleme Programı'nı kazandık ve projemiz TÜBİTAK tarafından desteklenmeye karar verildi.
+
+#### GEREKSİNİMLER 🛠
+- [x] Web projesi: 
+  ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+- [x] Veri Madenciliği Araçları:
+  ![cURL](https://img.shields.io/badge/curl-%23494444.svg?style=for-the-badge&logo=curl&logoColor=white)
 
 
-This study describes the development of a comprehensive full-stack web application that provides product recommendations based on product data gathered from five different markets. 
-Aim of this project is providing faster and simpler access to cheapest product, product with the lowest unit price and trended products information for end-users.
+#### PROJEDE KULLANILAN TEKNOLOJİLER VE KÜTÜPHANELER 🛠️
+<p>
+  <img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" />
+  <img alt="cURL" src="https://img.shields.io/badge/curl-%23494444.svg?style=for-the-badge&logo=curl&logoColor=white" />
+  <img alt="MySQL" src="https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img alt="Laravel" src="https://img.shields.io/badge/laravel-%23E14C92.svg?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img alt="Composer" src="https://img.shields.io/badge/composer-%234F5C6F.svg?style=for-the-badge&logo=composer&logoColor=white" />
+</p>
 
 
-In this comprehensive study, our primary objective is to develop a robust full-stack web
-application that efficiently searches multiple online markets, skilfully scrapes valuable
-product data, and utilizes the accumulated information to generate continuous
-recommendations of the most cost-effective products for users. It is worth noting that
-numerous existing applications serve a similar purpose across the vast realm of the internet.
-Hence, it becomes imperative to meticulously evaluate the performance of our meticulously
-crafted application in comparison to renowned websites such as "akakçe.com" and
-"cimri.com".
+#### 📫 NASIL BİR PROJE OLUŞTURDUK?
+<p>Bu projenin amacı, kullanıcılar için en ucuz ürüne, en düşük birim fiyatlı ürüne ve trend olan ürün bilgilerine daha hızlı ve basit bir erişim sağlamaktır.</p>
 
-In this repository, our aim is to collect data from websites with PHP programming languages. The process of accessing "valuable", "meaningful" and "useful" information
-that will meet our needs from a large mass of data is called "Data Mining". In this obtained data, "noise", which is called unwanted information, is removed, and made
-ready for transformation. In this project, PHP programming language, which hasmade a name for itself in the web world, will be used for Data Mining. PHP is
-especially used for developing web applications and creating dynamic web pages.When it comes to PHP and data mining, the first thing that comes to mind is the curl () function. The curl () function, known as Client URL, is a very important function for data transfer in PHP. PHP curl () function helps us to obtain data,
-analyze data and archive data. In our project, it will be used to obtain information about the desired product from e-marketplace platforms. Curl () will be used to obtain data such as reviews, price information, comments, and evaluations about the product from the target e-marketplace platform.
+## PROJE DETAYLARI📝
 
-For this purpose, in the project;
+Projemiz, PHP ve Python teknolojilerini içeren modern bir web uygulamasıdır. Veri tabanı olarak MsSQL kullanılmış olup, veri işleme ve analiz süreçlerinde Python'un sunduğu güçlü kütüphanelerden yararlanılmıştır. Proje, dinamik ve kullanıcı dostu bir deneyim sunmayı hedefler.
 
-a) Comparing the price of the product and sorting accordingly.
+Bu kapsamlı çalışmada, amacımız, çeşitli çevrimiçi pazarları verimli bir şekilde arayan, değerli ürün verilerini ustaca toplayan ve bu bilgileri kullanarak kullanıcılar için sürekli olarak en maliyet etkin ürünleri öneren sağlam bir tam yığın web uygulaması geliştirmektir. İnternette benzer amaçlara hizmet eden birçok uygulama bulunmakta; bu nedenle, uygulamamızın "akakçe.com" ve "cimri.com" gibi tanınmış sitelerle performansını dikkatlice değerlendirmek önemlidir.
 
-b) If a product is sold in multiples, determine the unit price of the product, and
-compare it with the single price of the same product.
+Bu projede amacımız, PHP kullanarak web sitelerinden veri toplamaktır. Büyük veri yığınlarından ihtiyaçlarımızı karşılayan "değerli", "anlamlı" ve "kullanışlı" bilgileri elde etme süreci **"Veri Madenciliği"** olarak adlandırılır. Elde edilen verilerden istenmeyen "gürültü" çıkarılır ve dönüşüm için hazır hale getirilir. Bu projede, web dünyasında kendini kanıtlamış PHP dili veri madenciliği için kullanılacaktır. PHP, özellikle web uygulamaları ve dinamik web sayfaları geliştirmede kullanılır.
 
-c) Compare the number of reviews on the product with data from all emarketplace sites.
+Veri madenciliği için cURL kullanımı:
 
-d) Compare the number of reviews about the product.
+-- **Veri Transferi**: cURL, web sitelerinden veri transferi için önemli bir işlev sunar.
+-- **Veri Elde Etme**: Ürün hakkında incelemeler, fiyat bilgileri, yorumlar ve değerlendirmeler gibi verileri e-pazar platformlarından elde etmek için kullanılır.
 
-e) Compare the estimated delivery date of the product to the cargo and sort accordingly when necessary.
+-----------------------------------------------------------------------
 
-f) Compare the product rating about the product and adjust accordingly if necessary, sorting.
+## 🌱BU PROJE İLE NELERİ BAŞARDIK?
 
-g) Creating a price analysis graph about the product if sufficient information is available information such as the data are expected to be obtained as a result of
-the data analysis.
+<p>🌕 Bu proje kapsamında, ürünlerin fiyatlarını ve diğer önemli bilgilerini karşılaştırarak kullanıcılar için değerli bilgiler sunmayı başardık. Projemizde gerçekleştirdiğimiz işlemler şunlardır: </p>
+
+-- 🎯 Ürünlerin fiyatlarını karşılaştırarak, en uygun fiyatlı seçenekleri sıraladık.
+
+-- 🎯 Çoklu olarak satılan ürünlerde birim fiyatı belirleyip, bunu tekli fiyatlarla karşılaştırdık.
+
+-- 🎯 Ürünlerin yorum sayılarını, tüm e-pazar sitelerindeki verilerle karşılaştırdık.
+
+-- 🎯 Ürün hakkında toplam yorum sayısını analiz ettik.
+
+-- 🎯 Ürünlerin tahmini teslim tarihlerini kargo süreleri ile karşılaştırarak sıraladık.
+
+-- 🎯 Ürünlerin puanlarını karşılaştırarak, gerekirse sıralamada ayarlamalar yaptık.
+
+-- 🎯 Yeterli veri mevcutsa, ürünlerin fiyat trendlerini görselleştiren analiz grafikleri oluşturduk.
+
+-----------------------------------------------------------------------
+
+Görüşürüz 🎉
+
